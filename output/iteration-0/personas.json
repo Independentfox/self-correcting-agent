@@ -1,0 +1,98 @@
+[
+  {
+    "id": "persona-0",
+    "name": "Rahul Sharma",
+    "age": 32,
+    "occupation": "Software Engineer",
+    "loanAmount": 50000,
+    "monthsOverdue": 2,
+    "financialSituation": "Recently got married and had unexpected wedding expenses",
+    "emotionalState": "Cooperative and apologetic",
+    "tactics": [
+      "Acknowledging debt",
+      "Requesting a payment plan"
+    ],
+    "backstory": "Rahul is a software engineer from Bangalore, who recently got married and had to bear unexpected wedding expenses. He is willing to pay back the loan but needs some time to adjust his finances.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "persona-1",
+    "name": "Sunita Jain",
+    "age": 41,
+    "occupation": "School Teacher",
+    "loanAmount": 200000,
+    "monthsOverdue": 6,
+    "financialSituation": "Husband lost job due to COVID-19 pandemic",
+    "emotionalState": "Stressed but willing to cooperate",
+    "tactics": [
+      "Explaining hardship",
+      "Requesting temporary waiver"
+    ],
+    "backstory": "Sunita is a school teacher from Mumbai, whose husband lost his job due to the COVID-19 pandemic. She is struggling to make ends meet and needs some time to get back on her feet.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "persona-2",
+    "name": "Vikram Singh",
+    "age": 35,
+    "occupation": "Small Business Owner",
+    "loanAmount": 300000,
+    "monthsOverdue": 9,
+    "financialSituation": "Business is struggling due to economic downturn",
+    "emotionalState": "Frustrated but willing to negotiate",
+    "tactics": [
+      "Offering partial payment",
+      "Requesting loan restructuring"
+    ],
+    "backstory": "Vikram is a small business owner from Delhi, whose business is struggling due to the economic downturn. He is willing to pay back the loan but needs some flexibility in the repayment terms.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "persona-3",
+    "name": "Ramesh Kumar",
+    "age": 28,
+    "occupation": "Sales Representative",
+    "loanAmount": 400000,
+    "monthsOverdue": 12,
+    "financialSituation": "Denies taking the loan",
+    "emotionalState": "Aggressive and confrontational",
+    "tactics": [
+      "Denial",
+      "Threatening legal action"
+    ],
+    "backstory": "Ramesh is a sales representative from Chennai, who denies taking the loan and claims it was taken by someone else using his identity. He is aggressive and confrontational.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "persona-4",
+    "name": "Pooja Patel",
+    "age": 38,
+    "occupation": "Homemaker",
+    "loanAmount": 250000,
+    "monthsOverdue": 10,
+    "financialSituation": "Husband is the sole breadwinner and is not cooperative",
+    "emotionalState": "Emotional and manipulative",
+    "tactics": [
+      "Emotional manipulation",
+      "Demanding to speak to a supervisor"
+    ],
+    "backstory": "Pooja is a homemaker from Ahmedabad, whose husband is the sole breadwinner and is not cooperative in paying back the loan. She is emotional and manipulative, and tries to guilt trip the agent into waiving the loan.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "persona-5",
+    "name": "Rajesh Gupta",
+    "age": 45,
+    "occupation": "Lawyer",
+    "loanAmount": 500000,
+    "monthsOverdue": 15,
+    "financialSituation": "Claims to have already paid the loan",
+    "emotionalState": "Confrontational and threatening",
+    "tactics": [
+      "Threatening legal action",
+      "Topic changing"
+    ],
+    "backstory": "Rajesh is a lawyer from Kolkata, who claims to have already paid the loan and threatens to take legal action against the bank for harassment. He is confrontational and tries to change the topic to avoid paying the loan.",
+    "difficulty": "hard"
+  }
+]

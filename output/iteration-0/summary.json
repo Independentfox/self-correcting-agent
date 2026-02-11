@@ -1,0 +1,16 @@
+{
+  "iteration": 0,
+  "scriptVersion": 0,
+  "avgNegotiationScore": 8,
+  "avgRelevanceScore": 8.5,
+  "avgOverallScore": 8.25,
+  "passRate": 83.33,
+  "totalPersonas": 6,
+  "failurePatterns": [
+    "The bot did not effectively address the borrower's concerns about the loan terms and interest rates, which led to further escalation.",
+    "The bot's response seemed slightly generic and did not fully address the borrower's demands for a concrete solution.",
+    "Borrower demands to speak to supervisor, but bot does not immediately escalate the call, leading to further escalation of the situation",
+    "Borrower raises specific allegations of harassment and extortion, but bot does not fully address these concerns"
+  ],
+  "timestamp": "2026-02-11T08:10:23.163Z"
+}

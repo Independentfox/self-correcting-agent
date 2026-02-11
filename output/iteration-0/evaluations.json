@@ -1,0 +1,184 @@
+[
+  {
+    "personaId": "persona-0",
+    "conversationId": "persona-0-conv",
+    "metrics": {
+      "negotiationEffectiveness": {
+        "score": 9,
+        "reasoning": "The bot effectively adapted its strategy to the borrower's situation, offering a payment plan that met the borrower's needs and providing a temporary interest waiver to help the borrower get back on track. The bot also successfully escalated the conversation to reach a resolution, confirming the borrower's commitment to the new plan.",
+        "examples": [
+          "Turn 5: Bot offered repayment plan options",
+          "Turn 7: Bot provided a revised plan with reduced monthly payments and a temporary interest waiver"
+        ]
+      },
+      "responseRelevance": {
+        "score": 9,
+        "reasoning": "The bot's responses were highly relevant to the borrower's statements and concerns, addressing the borrower's situation and adapting to the borrower's requests. The bot also acknowledged the borrower's emotional cues, such as congratulating the borrower on the upcoming addition to their family.",
+        "examples": [
+          "Turn 3: Bot acknowledged borrower's financial situation",
+          "Turn 5: Bot congratulated borrower on the upcoming addition to their family"
+        ]
+      }
+    },
+    "overallScore": 9,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "personaId": "persona-1",
+    "conversationId": "persona-1-conv",
+    "metrics": {
+      "negotiationEffectiveness": {
+        "score": 9,
+        "reasoning": "The bot effectively worked towards a resolution by offering alternatives, adapting to the borrower's situation, and escalating the conversation appropriately. The bot successfully negotiated a 3-month moratorium and a 9-month repayment plan with a reduced EMI amount.",
+        "examples": [
+          "Turn 5: The bot offered restructuring options and a temporary reduction in payments",
+          "Turn 7: The bot proposed a 3-month moratorium and a 9-month repayment plan with a fixed EMI amount",
+          "Turn 9: The bot reduced the EMI amount to ₹6,500 after the borrower's request"
+        ]
+      },
+      "responseRelevance": {
+        "score": 9,
+        "reasoning": "The bot's responses directly addressed the borrower's statements and concerns, demonstrating a clear understanding of the borrower's situation. The bot acknowledged the borrower's financial hardship and adapted its approach accordingly.",
+        "examples": [
+          "Turn 3: The bot asked about the borrower's current financial situation",
+          "Turn 5: The bot responded to the borrower's request for temporary relief and payment plan",
+          "Turn 7: The bot addressed the borrower's request for a moratorium and adjusted the repayment plan"
+        ]
+      }
+    },
+    "overallScore": 9,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "personaId": "persona-2",
+    "conversationId": "persona-2-conv",
+    "metrics": {
+      "negotiationEffectiveness": {
+        "score": 9,
+        "reasoning": "The bot effectively adapted its strategy to the borrower's situation, offering a restructuring of the loan payments and a temporary reduction in EMI. The bot also escalated the conversation appropriately, requesting documentation to support the borrower's claim and providing a clear next step. The borrower's request for a payment extension was addressed, and a mutually beneficial agreement was reached.",
+        "examples": [
+          "Turn 5: The bot offered restructuring of EMIs to a lower amount for the next few months",
+          "Turn 7: The bot offered a temporary reduction of 50% of the current EMI for the next three months"
+        ]
+      },
+      "responseRelevance": {
+        "score": 9,
+        "reasoning": "The bot's responses were highly relevant to the borrower's statements and concerns. The bot acknowledged the borrower's job loss, expressed empathy, and addressed the borrower's request for a payment extension. The bot also responded appropriately to the borrower's questions and requests, such as providing a formal email with the revised payment details.",
+        "examples": [
+          "Turn 3: The bot acknowledged the borrower's job loss and expressed empathy",
+          "Turn 8: The bot agreed to send a formal email with the revised payment details"
+        ]
+      }
+    },
+    "overallScore": 9,
+    "failures": [],
+    "passed": true
+  },
+  {
+    "personaId": "persona-3",
+    "conversationId": "persona-3-conv",
+    "metrics": {
+      "negotiationEffectiveness": {
+        "score": 8,
+        "reasoning": "The bot effectively adapted its strategy and offered alternatives to reach a resolution, such as escalating the case to the internal review team and eventually to the supervisor, Rukmini. The bot also made reasonable negotiation attempts, including offering a revised repayment plan and a permanent reduction in interest rates. However, the bot could have been more effective in addressing the borrower's concerns and making concessions earlier in the conversation.",
+        "examples": [
+          "Turn 7: The bot offered to escalate the case to the internal review team.",
+          "Turn 17: The bot offered a permanent reduction in interest rates to 12% per annum."
+        ]
+      },
+      "responseRelevance": {
+        "score": 9,
+        "reasoning": "The bot consistently addressed the borrower's statements and concerns, acknowledging their frustrations and responding to their questions and demands. The bot also effectively handled topic changes and deflections, staying focused on finding a resolution to the borrower's issues. However, there were a few instances where the bot's responses seemed slightly generic or canned.",
+        "examples": [
+          "Turn 3: The bot acknowledged the borrower's concerns about the loan agreement and offered to discuss a repayment plan.",
+          "Turn 15: The bot proposed a potential restructuring of the loan, including a temporary reduction in interest rates and a revised repayment schedule."
+        ]
+      }
+    },
+    "overallScore": 8.5,
+    "failures": [
+      {
+        "turnNumber": 4,
+        "metric": "negotiationEffectiveness",
+        "description": "The bot did not effectively address the borrower's concerns about the loan terms and interest rates, which led to further escalation.",
+        "severity": "medium",
+        "suggestedFix": "The bot could have acknowledged the borrower's concerns and offered to review the loan terms and interest rates more thoroughly."
+      },
+      {
+        "turnNumber": 10,
+        "metric": "responseRelevance",
+        "description": "The bot's response seemed slightly generic and did not fully address the borrower's demands for a concrete solution.",
+        "severity": "low",
+        "suggestedFix": "The bot could have provided a more specific and detailed response to the borrower's demands, such as offering a revised repayment plan or a reduction in interest rates."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "personaId": "persona-4",
+    "conversationId": "persona-4-conv",
+    "metrics": {
+      "negotiationEffectiveness": {
+        "score": 4,
+        "reasoning": "The bot attempted to negotiate but was largely ineffective due to the borrower's hostile and defensive demeanor. The bot did try to adapt by offering to escalate the call to a supervisor and eventually transferring the call, but it failed to make any significant progress toward a resolution. The bot's attempts to verify the borrower's identity and discuss the loan details were met with resistance and denial.",
+        "examples": [
+          "Turn 3: Bot attempts to confirm borrower's identity and discuss loan details, but borrower denies loan existence",
+          "Turn 7: Bot offers to escalate call to supervisor, but borrower becomes more agitated"
+        ]
+      },
+      "responseRelevance": {
+        "score": 6,
+        "reasoning": "The bot's responses were mostly relevant to the borrower's statements and concerns, but there were instances where the bot repeated itself or failed to fully address the borrower's questions. The bot did acknowledge the borrower's frustration and apologized for any distress caused, but it could have done more to address the borrower's specific concerns and allegations.",
+        "examples": [
+          "Turn 5: Bot asks for borrower's date of birth and address to verify identity, but borrower refuses",
+          "Turn 13: Bot asks for borrower's date of birth and address again, despite borrower's previous refusal"
+        ]
+      }
+    },
+    "overallScore": 5,
+    "failures": [
+      {
+        "turnNumber": 4,
+        "metric": "negotiationEffectiveness",
+        "description": "Borrower demands to speak to supervisor, but bot does not immediately escalate the call, leading to further escalation of the situation",
+        "severity": "medium",
+        "suggestedFix": "Bot should have immediately escalated the call to a supervisor when the borrower demanded it, rather than trying to verify the borrower's identity again"
+      },
+      {
+        "turnNumber": 14,
+        "metric": "responseRelevance",
+        "description": "Borrower raises specific allegations of harassment and extortion, but bot does not fully address these concerns",
+        "severity": "high",
+        "suggestedFix": "Bot should have directly addressed the borrower's allegations and provided a clear explanation of the company's intentions and procedures"
+      }
+    ],
+    "passed": false
+  },
+  {
+    "personaId": "persona-5",
+    "conversationId": "persona-5-conv",
+    "metrics": {
+      "negotiationEffectiveness": {
+        "score": 9,
+        "reasoning": "The bot effectively adapted its strategy to address Nalini's emotional state and financial situation, offering alternatives such as temporary suspension of interest accrual, restructuring the loan, and EMI deferment. The bot also escalated the issue to a team lead when necessary, demonstrating a willingness to find a resolution.",
+        "examples": [
+          "Turn 5: Bot offered to temporarily suspend interest accrual or restructure the loan",
+          "Turn 7: Bot offered a 3-6 month EMI deferment or temporary reduction in monthly payments"
+        ]
+      },
+      "responseRelevance": {
+        "score": 9,
+        "reasoning": "The bot consistently responded to Nalini's concerns and emotions, acknowledging her situation and showing empathy. The bot also directly addressed Nalini's questions and requests, such as putting a hold on further notices or letters being sent to her house.",
+        "examples": [
+          "Turn 3: Bot acknowledged Nalini's mother's illness and offered to call back at a more convenient time",
+          "Turn 12: Bot agreed to put a hold on further notices or letters being sent to Nalini's house"
+        ]
+      }
+    },
+    "overallScore": 9,
+    "failures": [],
+    "passed": true
+  }
+]
