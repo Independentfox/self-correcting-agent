@@ -498,7 +498,7 @@ For demos:
 
 ---
 
-## 📈 Example Results
+## 📈 Results
 
 Typical improvement trajectory:
 
@@ -539,79 +539,5 @@ Typical improvement trajectory:
 **Problem:** Rewriter removes important parts  
 **Solution:** Rewriter prompt emphasizes "ADD, don't remove" and caps script length
 
----
 
-## 🎥 Demo Script
-
-For a 5-minute demo:
-
-1. **Show the base script** (30s)
-   - "Here's a basic debt collection agent with standard practices"
-
-2. **Run single iteration** (1m)
-   - "Let's test it against 6 diverse borrowers"
-   - Show persona cards with difficulty badges
-   - Click through to view a conversation transcript
-   - Point out failures highlighted in red
-
-3. **Show evaluation** (30s)
-   - "Our judge agent scores on two metrics"
-   - Show the scores: ~4/10 overall
-   - Highlight specific failure points
-
-4. **Run self-correction loop** (2m)
-   - "Now watch it improve itself"
-   - Fast-forward through iterations
-   - Show metrics chart rising from 4 → 8
-   - Click iteration 2 to see script diff
-   - Point out specific additions addressing failures
-
-5. **Final results** (1m)
-   - "From 16% pass rate to 100%"
-   - Show before/after conversations side-by-side
-   - Highlight the concrete improvements
-   - "Fully automated, zero manual tuning"
-
----
-
-## 🤝 Contributing
-
-This is a prototype/demo project. For production use, consider:
-
-- Adding authentication and multi-user support
-- Implementing a proper database (PostgreSQL/MongoDB)
-- Adding more metrics (compliance, sentiment, call duration)
-- Supporting multiple agent types beyond debt collection
-- Building a conversation replay/debugging tool
-- Adding A/B testing between script versions
-- Implementing human-in-the-loop feedback
-
----
-
-## 📝 License
-
-MIT License - see [LICENSE](LICENSE) file
-
----
-
-## 🙏 Acknowledgments
-
-- Inspired by [Cekura](https://cekura.ai)'s AI testing approach
-- Built with [Groq](https://groq.com)'s blazing-fast inference
-- UI components from [shadcn/ui](https://ui.shadcn.com)
-- Powered by Meta's [LLaMA 3.3 70B](https://ai.meta.com/llama/)
-
----
-
-## 📧 Contact
-
-For questions or feedback:
-- GitHub Issues: [Report a bug](https://github.com/yourusername/voice-agent-testing/issues)
-- Email: your.email@example.com
-- Twitter: [@yourusername](https://twitter.com/yourusername)
-
----
-
-**⭐ If you find this project helpful, please star the repo!**
-
-Built with ❤️ using AI-powered self-correction
+Built with ❤️ by Manav
